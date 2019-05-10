@@ -1,4 +1,5 @@
 const pkg = require('./package')
+// github pages
 const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
@@ -77,5 +78,19 @@ module.exports = {
         })
       }
     }
+  },
+  manifest: {
+    name: 'nuxtStudy',
+    lang: 'ja',
+    short_name: 'nuxtStudy',
+    title: 'presentation',
+    'og:title': 'presentation',
+    description: 'presentation',
+    'og:description': 'presentation',
+    theme_color: '#ffffff',
+    background_color: '#ffffff'
+  },
+  workbox: {
+    dev: true // 開発環境でもPWA
   }
 }

@@ -3,7 +3,7 @@
     <h2>
       何が出来るの？
     </h2>
-    <p v-for="p in ps" :key="p">・{{ p.ptag }}</p>
+    <p v-for="(p2, i) in ps" :key="i">・{{ p2.ptag }}</p>
   </div>
 </template>
 

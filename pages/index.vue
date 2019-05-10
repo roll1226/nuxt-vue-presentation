@@ -48,7 +48,8 @@ export default {
       swiperOption: {
         mousewheel: true,
         pagination: {
-          el: '.swiper-pagination'
+          el: '.swiper-pagination',
+          clickable: true
         },
         keyboard: {
           enabled: true

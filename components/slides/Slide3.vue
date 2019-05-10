@@ -3,7 +3,7 @@
     <h2>
       学ぶメリット
     </h2>
-    <p v-for="p in ps" :key="p">・{{ p.ptag }}</p>
+    <p v-for="(p3, i) in ps" :key="i">・{{ p3.ptag }}</p>
   </div>
 </template>
 

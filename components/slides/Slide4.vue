@@ -3,7 +3,7 @@
     <h2>
       HEWに使える気がする
     </h2>
-    <p v-for="p in ps" :key="p">・{{ p.ptag }}</p>
+    <p v-for="(p4, i) in ps" :key="i">・{{ p4.ptag }}</p>
   </div>
 </template>
 

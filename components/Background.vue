@@ -23,17 +23,17 @@
 .bg_slanting1 {
   top: 0;
   left: 0;
-  border-top: 5vw solid #0cf;
+  border-top: 8.5vh solid #0cf;
   border-right: 50vw solid transparent;
-  border-bottom: 5vw solid transparent;
+  border-bottom: 8.5vh solid transparent;
   border-left: 50vw solid #0cf;
 }
 .bg_slanting2 {
   bottom: 0;
   left: 0;
-  border-top: 5vw solid transparent;
+  border-top: 8.5vh solid transparent;
   border-right: 50vw solid #0cf;
-  border-bottom: 5vw solid #0cf;
+  border-bottom: 8.5vh solid #0cf;
   border-left: 50vw solid transparent;
 }
 </style>
