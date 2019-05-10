@@ -89,8 +89,5 @@ module.exports = {
     'og:description': 'presentation',
     theme_color: '#ffffff',
     background_color: '#ffffff'
-  },
-  workbox: {
-    dev: true // 開発環境でもPWA
   }
 }
