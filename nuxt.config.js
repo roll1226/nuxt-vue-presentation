@@ -82,11 +82,6 @@ module.exports = {
   manifest: {
     name: 'nuxtStudy',
     lang: 'ja',
-    short_name: 'nuxtStudy',
-    title: 'presentation',
-    'og:title': 'presentation',
-    description: 'presentation',
-    'og:description': 'presentation',
     theme_color: '#ffffff',
     background_color: '#ffffff'
   }
