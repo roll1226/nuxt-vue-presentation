@@ -1,6 +1,6 @@
 <template>
   <div class="slide1">
-    <h1>Vue.js & Nuxt.js (& Laravel)<br />研究会</h1>
+    <h1>Vue.js & Nuxt.js<br />研究会</h1>
     <div id="logo">
       <Logo></Logo>
     </div>
