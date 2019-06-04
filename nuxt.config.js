@@ -82,7 +82,7 @@ module.exports = {
   manifest: {
     name: 'nuxtStudy',
     lang: 'ja',
-    theme_color: '#ffffff',
-    background_color: '#ffffff'
+    theme_color: '#fff',
+    background_color: '#fff'
   }
 }
